@@ -1,4 +1,4 @@
-# This is a collection of my Arduino sketches
+# This is a collection of Arduino sketches
 ## charger_plug_checker.ino
 Deployed to a plug checking device on an electro-mechanical device assembly line packing station. Checks for electrical continuity on each plug socket, which is made when the appropriate UK or European plug battery charger is fitted into a 3D printed fixture containing the Arduino Micro. The resulting behaviour is to output strings as keyboard strokes to be picked up by an application running on the PC that the Arduino is plugged into. The application (built in Nicelabel) then uses this input to determine the correct label template, automatically assign date/serial numbers, and print a label using the attached thermal printer.
 
